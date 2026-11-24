@@ -1,0 +1,14 @@
+{
+  "name": "market-mastery-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gamified learning web app for the trading concepts in Steidlmayer on Markets, Markets in Profile, Mind Over Markets and Markets and Momentum.",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "start": "python3 -m http.server 8000",
+    "test": "node tools/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
